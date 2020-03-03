@@ -32,7 +32,7 @@ parser.add_argument('twitter_name', type=str)
 
 
 class Update_Delete_Keyword(Resource):
-    def get(self, t_id):               # 根据t_id获取对应的value
+    def get(self, t_id):              
         abort_if_todo_doesnt_exist(t_id)
         print(twitter_names[t_id]['twitter_name'])
         keyword = twitter_names[t_id]['twitter_name']
@@ -40,16 +40,16 @@ class Update_Delete_Keyword(Resource):
         image_to_video(keyword)
         return twitter_names[t_id]
 
-    def delete(self, t_id):            # 根据t_id删除对应的value
+    def delete(self, t_id):        
         abort_if_todo_doesnt_exist(t_id)
         del twitter_names[t_id]
         return 'delete success', 204
 
-    def post(self, t_id):            # 判断t_id是否存在，并返回twitter_names整个列表
+    def post(self, t_id):            
         abort_if_todo_doesnt_exist(t_id)
         return twitter_names, 201
 
-    def put(self, t_id):            # 根据t_id添加对应的value，并返回所有值
+    def put(self, t_id):          
         args = parser.parse_args()
         twitter_name = {'twitter_name': args['twitter_name']}
         twitter_names[t_id] = twitter_name
