@@ -1,5 +1,5 @@
 # Twitter Summarizer Based on Flask and Restful
-## Learn Flask and RESTful as WEB service platform
+## Step 1: Learn Flask and RESTful as WEB service platform
 - Reference 1: [Flask] ([Github])
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
