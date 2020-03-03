@@ -1,5 +1,11 @@
 # Twitter Summarizer Based on Flask and Restful
 ## Step 1: Learn Flask and RESTful as WEB service platform
+### Flask
+- Run hello.py in FLASK_APP
+```env FLASK_APP=hello.py flask run```
+- Open the HostLocal, like ```http://127.0.0.1:5000/```
+- Or run it in Postman
+
 - Reference 1: [Flask] ([Github])
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
