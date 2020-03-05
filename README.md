@@ -5,6 +5,7 @@
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
 ### *** My API is setting on AWS EC2 Services with 1GB memory. For more detail, visit: [AWS] ***
+### *** To save money, I temporarily terminated the service ***
 - First, connect to the AWS API, replace the token(****.pem) to yours.
 ```
 scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file
