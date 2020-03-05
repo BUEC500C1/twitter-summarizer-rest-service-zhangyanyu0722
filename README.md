@@ -1,11 +1,6 @@
 # Twitter Summarizer Based on Flask and Restful
 ## Step 1: Learn Flask and RESTful as WEB service platform
 ### Flask
-- Run hello.py in FLASK_APP
-```env FLASK_APP=hello.py flask run```
-- Open the HostLocal, like ```http://127.0.0.1:5000/```
-- Or run it in Postman
-
 - Reference 1: [Flask] ([Github])
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
@@ -65,11 +60,12 @@ scp -i Desktop/zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com:
 <p align="center">
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/5.png" width=100>
 </p>
-  
 
-
-
-
+## Terminate the AWS.
+- Now the AWS Service is closed for saving money
+<p align="center">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/6.png" width=600>
+</p>
 
 
 
