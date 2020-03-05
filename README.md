@@ -17,6 +17,11 @@ For example:
 ```
 ssh -i zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com
 ```
+When you succeed, you can see the following feedback in the terminal.
+<p float="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/1.png" width="400" />
+  
+  
 - Second, enter the twitter_summarizer under the /home
 ```
 cd twitter_summarizer
@@ -26,6 +31,9 @@ cd twitter_summarizer
 python3 flask_rest.py
 ```
 Now we have entered the RESTful ststem
+<p float="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/2.png" width="400" />
+  
 - Now in order to download the videos, we need to open another terminal, and also connect to the AWS API 
 ```
 ssh -i zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com
@@ -37,7 +45,12 @@ cd twitter_summarizer
 ```
 python download.py BU_ece BU_Tweets
 ```
-- Wait for 10 seconds, when you see the following line shown in the terminal, you can download the videos using the following command in a new termianl.
+- Wait for 10 seconds, when you see the following line shown in the terminal.
+<p float="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/3.png" width="400" />
+  
+- Now you can download the videos using the following command in a new termianl.
+
 ```
 scp -i /directory/to/abc.pem user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file /your/local/directory/files/to/download
 ```
@@ -45,6 +58,13 @@ For example:
 ```
 scp -i Desktop/zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com:/home/ec2-user/twitter_summarizer/BU_ece.avi Desktop/
 ```
+<p float="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/4.png" width="400" />
+  
+<p float="middle">
+  <img src="https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/5.png" width="400" />
+  
+  
 
 
 
