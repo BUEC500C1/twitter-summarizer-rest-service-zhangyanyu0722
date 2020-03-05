@@ -9,8 +9,46 @@
 - Reference 1: [Flask] ([Github])
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
-- Deploy your system to free [AWS Services]:
-- Develop simple WEB applications to test your system.
+- First, connect to the AWS API, replace the token(****.pem) to yours.
+```
+scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file
+```
+For example:
+```
+ssh -i zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com
+```
+- Second, enter the twitter_summarizer under the /home
+```
+cd twitter_summarizer
+```
+- Third, enable the flask_rest:
+```
+python3 flask_rest.py
+```
+Now we have entered the RESTful ststem
+- Now in order to download the videos, we need to open another terminal, and also connect to the AWS API 
+```
+ssh -i zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com
+```
+```
+cd twitter_summarizer
+```
+- The last step is to download all the videos based on the keywords you input. For example, we want to make two summarizer for  'BU_ece' and 'BU_Tweets'
+```
+python download.py BU_ece BU_Tweets
+```
+- Wait for 10 seconds, when you see the following line shown in the terminal, you can download the videos using the following command in a new termianl.
+```
+scp -i /directory/to/abc.pem user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file /your/local/directory/files/to/download
+```
+For example: 
+```
+scp -i Desktop/zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com:/home/ec2-user/twitter_summarizer/BU_ece.avi Desktop/
+```
+
+
+
+
 
 
 
