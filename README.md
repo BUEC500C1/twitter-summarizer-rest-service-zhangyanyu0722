@@ -32,7 +32,7 @@ python3 flask_rest.py
 ```
 Now we have entered the RESTful ststem
 <p align="center">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/2.png width=600">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/2.png" width=600>
 </p>
 
 - Now in order to download the videos, we need to open another terminal, and also connect to the AWS API 
@@ -63,7 +63,7 @@ scp -i Desktop/zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com:
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/4.png" width=600>
 </p>
 <p align="center">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/5.png" width=200>
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/5.png" width=100>
 </p>
   
 
