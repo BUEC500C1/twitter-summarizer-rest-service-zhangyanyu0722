@@ -12,7 +12,7 @@ ec2-3-85-121-108.compute-1.amazonaws.com:4040
 ```
 - Second, write 1~4 keyword in the block and click submit.
 <p align="center">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/7.png" width=600>
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/8.png" width=600>
 </p>
 
 - Third, wait a few seconds, the zip file will be downloaded.
