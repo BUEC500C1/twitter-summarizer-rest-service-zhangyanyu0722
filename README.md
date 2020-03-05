@@ -19,7 +19,7 @@ ssh -i zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com
 ```
 When you succeed, you can see the following feedback in the terminal.
 <p align="center">
-  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/1.png">
+  <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/1.png" width=200>
 </p>
   
 - Second, enter the twitter_summarizer under the /home
