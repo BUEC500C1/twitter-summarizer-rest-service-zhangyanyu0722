@@ -4,7 +4,7 @@
 - Reference 1: [Flask] ([Github])
 - Reference 2: [Flask-RESTFUL] ([Github.])
 ## Step 2: Integrate module to become a RESTFUL system
-### My API is setting on AWS EC2 Services with 1GB memory. For more detail, visit: https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin&region=us-east-1
+### *** My API is setting on AWS EC2 Services with 1GB memory. For more detail, visit: [AWS] ***
 - First, connect to the AWS API, replace the token(****.pem) to yours.
 ```
 scp -i /directory/to/abc.pem /your/local/file/to/copy user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file
@@ -69,7 +69,7 @@ scp -i Desktop/zhangyanyu.pem ec2-user@ec2-52-87-190-21.compute-1.amazonaws.com:
 </p>
 
 
-
+[AWS]: https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin&region=us-east-1
 [Flask]: https://palletsprojects.com/p/flask/
 [Github]: https://github.com/pallets/flask
 [Flask-RESTFUL]: https://flask-restful.readthedocs.io/en/latest/
