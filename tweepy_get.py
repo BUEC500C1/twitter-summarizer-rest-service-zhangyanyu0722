@@ -40,7 +40,7 @@ def tweepy_get(keyword):
 		text_noem = highpoints.sub('--emoji--', tweet)
 		text_noem = text_noem.encode('utf8')
 
-		fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', 50)
+		fnt = ImageFont.truetype('Arial.ttf', 50)
 		image = Image.open('origin.png')
 		draw = ImageDraw.Draw(image)
 		draw.text((100,200), tweet, font=fnt, fill= "white")
