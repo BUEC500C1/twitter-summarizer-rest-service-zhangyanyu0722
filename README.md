@@ -8,9 +8,12 @@
 ### *** To save money, I temporarily terminated the service ***
 - First, visit ec2-3-85-121-108.compute-1.amazonaws.com with port 4040
 ```
-ec2-3-85-121-108.compute-1.amazonaws.com:4040
+ec2-3-85-121-108.compute-1.amazonaws.com:80
 ```
 - Second, write 1~4 keyword in the block and click submit.
+******************************************************
+The name you input must be the exist twitter name
+******************************************************
 <p align="center">
   <img src= "https://github.com/BUEC500C1/twitter-summarizer-rest-service-zhangyanyu0722/blob/master/img/8.png" width=600>
 </p>
