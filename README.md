@@ -6,7 +6,7 @@
 ## Step 2: Integrate module to become a RESTFUL system
 ### *** My API is setting on AWS EC2 Services with 1GB memory. For more detail, visit: [AWS] ***
 ### *** To save money, I temporarily terminated the service ***
-- First, visit ec2-3-85-121-108.compute-1.amazonaws.com with port 4040
+- First, visit ec2-3-85-121-108.compute-1.amazonaws.com with port 80
 ```
 ec2-3-85-121-108.compute-1.amazonaws.com:80
 ```
